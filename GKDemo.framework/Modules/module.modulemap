@@ -1,0 +1,11 @@
+framework module GKDemo {
+  umbrella header "GKDemo.h"
+
+  export *
+  module * { export * }
+}
+
+module GKDemo.Swift {
+    header "GKDemo-Swift.h"
+    requires objc
+}
